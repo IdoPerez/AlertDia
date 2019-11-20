@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="press here"
+        android:onClick="press"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:text="icon"
+        android:layout_weight="10"
+        android:onClick="icon"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="icon close"
+        android:onClick="IC"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <Button
+        android:id="@+id/background"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="Color" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <Button
+        android:id="@+id/superman"
+        android:layout_width="100dp"
+        android:layout_weight="10"
+        android:layout_height="0dp"
+        android:text="Super Button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+</LinearLayout>

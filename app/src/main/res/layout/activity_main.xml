@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/layout"
     android:gravity="center"
     tools:context=".MainActivity">
 
@@ -58,7 +59,8 @@
         android:layout_width="100dp"
         android:layout_height="0dp"
         android:layout_weight="10"
-        android:text="Color" />
+        android:text="Color"
+        android:onClick="Change"/>
 
     <Space
         android:layout_width="match_parent"
@@ -70,7 +72,8 @@
         android:layout_width="100dp"
         android:layout_weight="10"
         android:layout_height="0dp"
-        android:text="Super Button" />
+        android:text="Super Button"
+        android:onClick="superbot"/>
 
     <Space
         android:layout_width="match_parent"
